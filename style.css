@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #2EC1AC;
+    padding: 50px;
+}
+
+header #header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header-left h1{
+    color: yellow;
+}
+
+#header-left p{
+    color: white;
+}
+
+#info{
+    display: flex;
+    margin: 50px 0 50px 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#info div{
+    padding: 1%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#info div img{
+    width: 300px;
+}
+
+#info div a{
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+
+}

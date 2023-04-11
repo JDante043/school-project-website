@@ -1,4 +1,5 @@
 body{
+    padding: 0px 0px 15px 0px;
     margin: 0;
 }
 
@@ -41,9 +42,22 @@ header #header-left{
     width: 300px;
 }
 
-#info div a{
-    appearance: button;
-    text-decoration: none;
-    color: initial;
+#buttondiv{
+    display: flex;
+    justify-content: center;
 
+}
+
+body button{
+    border: none;
+    font-size: 30px;
+    border-radius: 13px;
+    padding: 5px 10px 5px 10px;
+    background-color: #2EC1AC;
+    color: white;
+}
+
+#buttondiv button a{
+    text-decoration: none;
+    color: white;
 }
